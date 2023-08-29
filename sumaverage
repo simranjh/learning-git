@@ -1,0 +1,25 @@
+package sammiedoingjava;
+
+import java.util.Scanner;
+
+public class sumaverage {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int num1,num2,num3,num4,num5;
+		int num, avg;
+		System.out.println("Write 5 numbers: ");
+		num1=scanner.nextInt();
+		num2=scanner.nextInt();
+		num3=scanner.nextInt();
+		num4=scanner.nextInt();
+		num5=scanner.nextInt();
+		scanner.close();
+		
+		
+		num = num1 + num2 + num3 + num4 + num5;
+		avg = num/5;
+		
+		System.out.println("Sum of all number : " + num );
+		System.out.println("Average of all number : " + avg);
+		}
+}
